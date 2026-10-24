@@ -9,6 +9,11 @@ The app itself is intentionally tiny (a Node.js HTTP server). The point of the r
 ```
 Git push -> Jenkins -> Test -> Docker build -> Smoke test -> (optional) Push image
 ```
+## Screenshots
+
+![Pipeline stages](docs/pipeline-stages.png)
+![Build history](docs/build-history.png)
+![Console output](docs/console-success.png)
 
 | Stage | What happens |
 |-------|--------------|
